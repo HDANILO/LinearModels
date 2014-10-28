@@ -69,7 +69,7 @@ public abstract class Neuro<T extends DatasetType> {
 		
 		/*while (t > limiar)
 		{*/
-		for(int k = 0; k < 1000000; k++)
+		for(int k = 0; k < 100000; k++)
 		{
 			t = 0;
 			for(int i = 0; i < w.length; i ++)

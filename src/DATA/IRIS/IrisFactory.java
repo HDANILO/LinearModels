@@ -35,7 +35,7 @@ public class IrisFactory {
 				d[0] = 1;
 				for(int aux = 1; aux < item.length; aux++)
 				{
-					d[aux-1] = Double.parseDouble(item[aux-1]);
+					d[aux] = Double.parseDouble(item[aux-1]);
 				}
 				pf[i] = new Iris(d, item[4],i);
 			}

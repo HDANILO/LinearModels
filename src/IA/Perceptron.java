@@ -11,7 +11,6 @@ public class Perceptron<T extends DatasetType> extends Neuro<T>  {
 		
 		//train
 		super.train(super.limiar);
-
 	}
 
 	@Override
